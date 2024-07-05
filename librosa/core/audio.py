@@ -28,9 +28,9 @@ from .._typing import _FloatLike_co, _IntLike_co, _SequenceLike
 from typing import Any, BinaryIO, Callable, Generator, Optional, Tuple, Union, List
 from numpy.typing import DTypeLike, ArrayLike
 
-# Lazy-load optional dependencies
-samplerate = lazy.load("samplerate")
-resampy = lazy.load("resampy")
+# # Lazy-load optional dependencies
+# samplerate = lazy.load("samplerate")
+# resampy = lazy.load("resampy")
 
 __all__ = [
     "load",
